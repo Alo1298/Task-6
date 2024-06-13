@@ -35,6 +35,8 @@ function init() {
     } else {
       alert(convertion.message);
     }
+
+    gtag('event','calculated',{'isToRoman': modeCheckbox.checked});
   });
 
 }
