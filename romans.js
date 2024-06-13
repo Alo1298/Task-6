@@ -36,7 +36,7 @@ function init() {
       alert(convertion.message);
     }
     // eslint-disable-next-line no-undef
-    gtag('event','calculated',{'isToRoman': modeCheckbox.checked});
+    gtag('event','Times_Calculated',{'To_Roman': modeCheckbox.checked});
   });
 
 }
