@@ -96,7 +96,7 @@ const convertRomanToInteger = function(roman) {
   response.value = sum;
   response.result = true;
 
-gtaq('event ', 'RomantoInteger',{
+gtag('event ', 'RomantoInteger',{
 'Integershown': response});
   
   return response;
@@ -160,7 +160,7 @@ const convertIntegerToRoman = function(num) {
   response.value = str;
   response.result = true;
 
-  gtaq('event ', 'IntegertoRoman',{
+  gtag('event ', 'IntegertoRoman',{
   'Romanshown': response});
   return response;
 };
